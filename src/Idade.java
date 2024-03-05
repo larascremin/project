@@ -9,10 +9,10 @@ public class Idade {
             JOptionPane.showMessageDialog(null, "Você é idoso");
         } else if (idade >= 18) {
             JOptionPane.showMessageDialog(null, "Você é adulto");
-        } else if (idade >= 12) {
+        } else if (idade > 12) {
             JOptionPane.showMessageDialog(null, "Você é jovem");
         } else {
-            JOptionPane.showMessageDialog(null, "Você é uma cirnaça");
+            JOptionPane.showMessageDialog(null, "Você é uma criança");
         }
     }
 }
