@@ -1,3 +1,5 @@
+package class_one;
+
 import javax.swing.JOptionPane;
 
 public class Idade {
