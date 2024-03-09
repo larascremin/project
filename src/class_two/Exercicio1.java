@@ -2,7 +2,7 @@ package class_two;
 
 import javax.swing.JOptionPane;
 
-public class ExercicioUm {
+public class Exercicio1 {
     public static void main(String[] args) {
 
         double deposito = Double.parseDouble(JOptionPane.showInputDialog(null, "Valor de Deposito:"));

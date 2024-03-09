@@ -2,7 +2,7 @@ package class_two;
 
 import javax.swing.JOptionPane;
 
-public class ExercicioDois {
+public class Exercicio2 {
     public static void main(String[] args) {
 
         double salario = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira seu salario:"));
