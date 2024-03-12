@@ -36,9 +36,9 @@ public class Exercicio5 {
             }
         }
 
-        // JOptionPane.showMessageDialog(null, "Nome dos carros: " + carro);
-        // JOptionPane.showMessageDialog(null, "Ano dos carros: " + ano);
-        // JOptionPane.showMessageDialog(null, "Cor dos carros: " + cor);
+        JOptionPane.showMessageDialog(null, "Nome dos carros: " + carro);
+        JOptionPane.showMessageDialog(null, "Ano dos carros: " + ano);
+        JOptionPane.showMessageDialog(null, "Cor dos carros: " + cor);
 
         JOptionPane.showMessageDialog(null, "Carros azuis: " + azul);
         JOptionPane.showMessageDialog(null, "Carros pretos de 2021: " + preto);

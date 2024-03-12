@@ -27,9 +27,7 @@ public class Exercicio3 {
             }
         }
 
-        if (media > 0) {
-            media = somaImpar / qntdImpar;
-        }
+        media = somaImpar / qntdImpar;
 
         JOptionPane.showMessageDialog(null, "Numeros pares: " + numeroPar);
         JOptionPane.showMessageDialog(null, "Soma: " + somaPar);
