@@ -6,7 +6,7 @@ public class Exercicio4 {
 
         double chico = 1.50;
         double ze = 1.10;
-        double anos = 0;
+        int anos = 0;
 
         while (ze < chico) {
             chico = chico + 0.2;
