@@ -12,7 +12,6 @@ public class DesafioVetores {
         String[] sexos = new String[quantidade];
         double media = 0;
         double mediaGeral = 0;
-        int somaAltura = 0;
         int mulherAlturas = 0;
         int mulher = 0;
         int pessoasAlturas = 0;
@@ -25,7 +24,6 @@ public class DesafioVetores {
             alturas[i] = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira a altura de " + nomes[i]));
             sexos[i] = JOptionPane.showInputDialog(null,
                     "Insira o sexo de " + nomes[i] + " (F = feminino / M = masculino)");
-            somaAltura += alturas[i];
         }
 
         String maisAlto = nomes[0];
