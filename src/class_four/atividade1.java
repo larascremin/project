@@ -2,7 +2,7 @@ package class_four;
 
 import javax.swing.JOptionPane;
 
-public class atividade {
+public class atividade1 {
 
     public static void main(String[] args) {
 
