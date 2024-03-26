@@ -41,14 +41,16 @@ public class atividade6 {
             }
 
             if (opcao == 3) {
+                String res = "telefone não encontrado";
                 buscaTelefone = Integer.parseInt(JOptionPane.showInputDialog(null, "pesquisar telefone: "));
                 for (int i = 0; i < cadastros; i++) {
                     if (buscaTelefone == telefones[i]) {
-                        JOptionPane.showMessageDialog(null, nomes[i] + ": " + telefones[i]);
+                        res = nomes[i] + ": " + telefones[i];
                     } else {
                         JOptionPane.showMessageDialog(null, "telefone não encontrado");
                     }
                 }
+                JOptionPane.showMessageDialog(null, res);
             }
 
         } while (opcao != 4);
