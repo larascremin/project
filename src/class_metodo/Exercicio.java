@@ -9,9 +9,9 @@ public class Exercicio {
         int cadastros = 0;
         int opt;
 
-        String[] nomes = new String[1000];
-        int[] idades = new int[1000];
-        String[] sexo = new String[1000];
+        String[] nomes = new String[100];
+        int[] idades = new int[100];
+        String[] sexo = new String[100];
         String masculino = "m";
         String feminino = "f";
 
@@ -19,7 +19,6 @@ public class Exercicio {
             opt = option();
             if (opt == 1) {
                 cadastro(cadastros++, nomes, idades, sexo);
-
             } else if (opt == 2) {
                 buscarNome(cadastros, nomes);
             } else if (opt == 3) {
@@ -58,7 +57,7 @@ public class Exercicio {
             if (pesquisa.equals(nomes[i])) {
                 JOptionPane.showMessageDialog(null, nomes[i] + ": esta cadastrado");
             } else {
-                JOptionPane.showMessageDialog(null, ": não esta cadstrado");
+                JOptionPane.showMessageDialog(null, ": não esta cadastrado");
             }
         }
     }
