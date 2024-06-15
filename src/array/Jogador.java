@@ -3,9 +3,9 @@ package array;
 public class Jogador {
 
     String nome;
-    int numeroCamisa;
+    int camisa;
     String posicao;
     String time;
-    int golsMarcados;
+    int gols;
 
 }
